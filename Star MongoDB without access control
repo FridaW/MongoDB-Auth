@@ -1,0 +1,7 @@
+1. Start MongoDB without access control
+
+mongod --port 27017 --dbpath /data/db
+
+2. Connect to the instance
+
+mongo --port 27017
